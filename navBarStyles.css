@@ -1,0 +1,185 @@
+.navBarContainer * {
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   font-weight: normal;
+}
+
+.navBarButton {
+   background-color: transparent;
+   color: #3469f0;
+   border: 2px solid #3469f0;
+   border-radius: 20px;
+   padding: 0px 25px;
+   font-size: 16px;
+   font-weight: bold;
+   transition: transform 0.3s, background-color 0.3s, color 0.3s, box-shadow 0.3s;
+   white-space: nowrap;
+   display: inline-block;
+   margin: 0 10px;
+   height: 40px;
+   box-sizing: border-box;
+}
+
+.navBarButton:hover {
+   background-color: #3469f0;
+   color: #fff;
+   transform: scale(1.05);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.navBarButton:active {
+   transform: scale(0.95);
+}
+
+.LiveChatDesignImage {
+   margin-left: auto;
+   margin-right: 10px;
+   width: auto;
+   height: auto;
+
+}
+
+.search-icon {
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+   vertical-align: middle;
+}
+
+.main-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 20px;
+}
+
+.left-section {
+   flex: auto;
+   align-items: baseline ;
+}
+
+
+#theHeaderUnderNav{
+   flex-wrap: wrap;
+   margin-top: 40px;
+}
+.right-section {
+   flex: auto;
+   display: flex;
+   justify-content: center;
+   align-items: baseline ;
+}
+
+
+.tags-container {
+   display: flex;
+   align-items: center;
+   gap: 10px; 
+}
+
+#buttonForTag {
+   padding: 5px 10px; 
+   font-size: 14px; 
+   height: auto; 
+   width: auto; 
+   display: inline-block; 
+   margin: 0; 
+}
+
+.input-group{
+   width: 10px;
+}
+
+#button-addon2{
+   width: 100px;
+}
+
+
+.card {
+   margin: 15px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+}
+
+.card-img-top {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.card-body {
+   padding: 20px;
+}
+
+.card-footer {
+   background-color: #f8f9fa;
+   border-top: 1px solid #e9ecef;
+   padding: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.card-title {
+   font-size: 1.25rem;
+   font-weight: bold;
+}
+
+.card-text {
+   font-size: 1rem;
+   color: #6c757d;
+}
+
+
+
+.custom-shape-divider-bottom-1725948808{
+   margin-top: 50px;
+}
+
+@media (max-width: 990px) {
+   .LiveChatDesignImage {
+       display: none;
+   }
+}
+
+.custom-shape-divider-bottom-1725950865 {
+margin-top: 50px;}
+
+
+.footer-text{
+   margin-left: 20px;
+   margin-right: 0px;
+}
+
+
+.moreArticlesButton {
+   background-color: transparent;
+   color: #3469f0;
+   border: 2px solid #3469f0;
+   border-radius: 10px;
+   padding: 0px 25px;
+   font-size: 16px;
+   font-weight: bold;
+   transition: transform 0.3s, background-color 0.3s, color 0.3s, box-shadow 0.3s;
+   white-space: nowrap;
+   display: inline-block;
+   margin: 0 10px;
+   height: 40px;
+   box-sizing: border-box;
+   margin-top: 65px;
+}
+
+.moreArticlesButton:hover {
+   background-color: #3469f0;
+   color: #fff;
+   transform: scale(1.05);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.moreArticlesButton:active {
+   transform: scale(0.95);
+}
+
+
+.FooterBackgroundColor{
+   background-color: #163F5F;
+}
