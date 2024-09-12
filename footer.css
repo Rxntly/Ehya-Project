@@ -1,0 +1,27 @@
+.full-width-image {
+   width: 100%;
+   height: auto;
+   display: none; /* Hide all images by default */
+}
+
+.large-screen {
+   display: block; /* Show large screen image by default */
+}
+
+@media (max-width: 1199px) {
+   .large-screen {
+      display: none; /* Hide large screen image */
+   }
+   .medium-screen {
+      display: block; /* Show medium screen image */
+   }
+}
+
+@media (max-width: 767px) {
+   .medium-screen {
+      display: none; /* Hide medium screen image */
+   }
+   .small-screen {
+      display: block; /* Show small screen image */
+   }
+}
