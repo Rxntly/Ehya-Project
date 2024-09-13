@@ -25,3 +25,168 @@
       display: block; /* Show small screen image */
    }
 }
+
+.threeCardCombo {
+   position: relative;
+   width: 466px;
+   height: 385px;
+
+}
+
+.background-div {
+   position: absolute;
+   border-radius: 10px;
+}
+
+.blue {
+   width: 135px;
+   height: 135px;
+   background-color: #1565D8; 
+   top: 50px;
+   right: -55px;
+   z-index: 0;
+}
+
+.dark {
+   width: 150px;
+   height: 150px;
+   background-color: #FFFFFF;
+   opacity: 0.15;
+   bottom: -50px;
+   left: -10px;
+   z-index: 0;
+}
+
+.card {
+   position: relative;
+   z-index: 1; /* Ensure the card stays on top */
+}
+
+
+
+
+
+.footer-bottom {
+   background-color: #0D2436;
+   color: #999;
+   padding: 20px 0;
+   text-align: center;
+}
+
+
+
+.nearCardFooterTitle{
+   color: white;
+   font-family: "Hanken Grotesk", system-ui;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+   margin-bottom: 25px;
+   width: 555px;
+   height: 98px;
+}
+
+
+.changeFontFotter{
+   color: rgba(149, 158, 173, 1);
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   padding-right: 40px;
+}
+
+
+.input-field{
+   width: 320px;
+   height: 56px;
+   border-radius: 10px;
+}
+
+.input-field::placeholder{
+   padding-left: 20px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.get-started-button{
+   width: 166px;
+   height: 56px;
+   border-radius: 15px;
+   background-color: rgba(21, 101, 216, 1);
+   color: white;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+
+.warningTextBottom{
+   color: rgba(90, 113, 132, 1);
+   padding-top: 40px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   max-width: 555px;
+   max-height: 56;
+}
+
+
+
+
+
+
+/* card footer below */
+
+.card-footer {
+   background-color: white;
+   border-top: none;
+   padding: 10px 15px;
+   font-size: 14px;
+}
+
+.author-info {
+   display: flex;
+   align-items: center;
+}
+
+.author-img {
+   border: 2px solid #f0f0f0;
+}
+
+.author-details {
+   display: inline-block;
+}
+
+.author-name {
+   font-weight: bold;
+   font-size: 14px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+}
+
+.verified-badge {
+   font-size: 12px;
+   display: inline-block;
+   color: #28a745; /* Green for verified checkmark */
+   font-style: italic;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+}
+
+.publish-date {
+   font-size: 13px;
+   color: #6c757d;
+   font-weight: normal;
+}
+
+.date {
+   font-size: 13px;
+   font-weight: normal;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+}
+
+.card-footer {
+   border-top: 1px solid white !important;  /* Set the top border to white */
+   background-color: inherit;              /* Ensure the footer background blends with the rest */
+   padding: 10px 15px;
+}
