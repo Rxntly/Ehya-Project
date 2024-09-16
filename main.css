@@ -1,0 +1,122 @@
+/* .MainText {
+   width: 539px;
+   height: 136px;
+   position: absolute;
+   background-color: #fff; /* Adjust background color if needed 
+   padding: 20px;
+ }
+
+ .MainText h1 {
+   font-family: HK Grotesk;
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 68px;
+   letter-spacing: 0.2px;
+   color: rgba(24, 59, 86, 1);
+ } */
+
+
+ .tags-container{
+   
+ }
+ #buttonForTag{
+   background-color: rgba(21, 101, 216, 0.1);
+   color: rgba(21, 101, 216, 1);
+   font-family: Open Sans;
+   font-weight: 600;
+   border-radius: 10px;
+   border:none;
+   max-height: 32px;
+   text-align: inherit;
+ }
+
+
+ .popTags{
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   color: rgba(90, 113, 132, 1);
+ }
+
+
+.cardLayout{
+   width: 296px;
+   height: 72px;
+   /* padding-left: 32px;
+   padding-right: 32px; */
+
+}
+
+ .card-title{
+   font-family: "Hanken Grotesk", system-ui;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   color: rgba(24, 59, 86, 1);
+   font-size: 28px;
+   line-height: 36px;
+   letter-spacing: 0.2px;
+ 
+   display: block; 
+ }
+
+ .card-text{
+   font-family: "Open Sans", sans-serif;
+font-weight: 400;
+color: rgba(24, 59, 86, 1);
+line-height: 32px;
+font-size: 18px;
+ }
+
+
+.cardTitleDesc{
+   height: 61px;
+   width: 296px;
+}
+ 
+.date {
+   font-size: 16px;
+   font-weight: 600;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   line-height: 21.79px;
+   color: rgba(90, 113, 132, 1);
+}
+
+
+
+.list-unstyled{
+   border:none;
+}
+
+ 
+.card {
+   margin:25px;
+   border-radius: 12px;
+   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
+   overflow: hidden;
+   border: none;
+}
+
+.card-img-top {
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+}
+
+.card-body {
+   padding: 20px;
+}
+
+.card-footer {
+   background-color: #ffffff;
+   border-top: 1px solid #ffffff;
+   border-top: 1px solid white !important;  /* Set the top border to white */
+   background-color: inherit;              
+   padding: 30px 30px;
+}
+
+
+.card-title {
+   font-size: 1.25rem;
+   font-weight: bold;
+}
+

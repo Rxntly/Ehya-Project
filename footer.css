@@ -105,8 +105,11 @@
 .input-field::placeholder{
    padding-left: 20px;
    font-family: "Open Sans", sans-serif;
+   font-size: 16px;
+   line-height: 21.79px;
    font-weight: 400;
    font-style: normal;
+   color: rgba(90, 113, 132, 1);
 }
 
 .get-started-button{
@@ -176,17 +179,4 @@
    font-size: 13px;
    color: #6c757d;
    font-weight: normal;
-}
-
-.date {
-   font-size: 13px;
-   font-weight: normal;
-   font-family: "Open Sans", sans-serif;
-   font-weight: 600;
-}
-
-.card-footer {
-   border-top: 1px solid white !important;  /* Set the top border to white */
-   background-color: inherit;              /* Ensure the footer background blends with the rest */
-   padding: 10px 15px;
 }
