@@ -8,23 +8,7 @@
    display: block; /* Show large screen image by default */
 }
 
-@media (max-width: 1199px) {
-   .large-screen {
-      display: none; /* Hide large screen image */
-   }
-   .medium-screen {
-      display: block; /* Show medium screen image */
-   }
-}
 
-@media (max-width: 767px) {
-   .medium-screen {
-      display: none; /* Hide medium screen image */
-   }
-   .small-screen {
-      display: block; /* Show small screen image */
-   }
-}
 
 .threeCardCombo {
    position: relative;
@@ -179,4 +163,21 @@
    font-size: 13px;
    color: #6c757d;
    font-weight: normal;
+}
+
+
+/* Override Bootstrap gutter */
+.row.no-gutters {
+   --bs-gutter-x: 0;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+.row.no-gutters > [class*='col-'] {
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.small-screen{
+   max-height: 20px;
 }

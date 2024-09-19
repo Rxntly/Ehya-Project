@@ -1,0 +1,391 @@
+/* Nav Bar Responsive */
+
+@media (max-width: 768px) {
+
+.left-section {
+      margin: 0 auto;
+      width: 539px;
+      text-align: center;
+      align-self: center;
+      padding-top: 35px !important;
+}
+
+.navbar-toggler{
+   outline:none;  
+   border: none;
+   border: unset;
+}
+
+.MainText{
+   margin-top: 30px;
+   padding-left: 5px;
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 60px;
+   font-family: "Hanken Grotesk", system-ui;
+}
+
+
+
+.UnderMainText{
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 36px;
+   text-align: center;
+   max-width: 100%;
+  
+}
+
+* {
+   -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+           box-sizing: content-box;
+           --bs-gutter-x: 0rem;
+ }
+ *:before,
+ *:after {
+   -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+           box-sizing: content-box;
+ }
+
+
+.search-bar {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+
+.search-bar input {
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.search-bar button {
+   width: 100%;
+}
+
+.popular-tags {
+   text-align: center;
+   width: 100%;
+   margin-top: 20px;
+}
+
+.tags-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 10px;
+}
+
+.tags-container button {
+   flex: 1 1 auto;
+   margin: 5px;
+}
+
+/* #buttonForTag{
+   width: 20px;
+} */
+
+
+   .right-section{
+      display: none !important;
+   }
+
+   .siteLogo{
+      margin-left: 75px;
+   }
+}
+
+
+
+ /* Tablet view  */
+/* @media (max-width: 768px) {
+   .footer {
+      padding: 30px 20px;
+   }
+
+   .footer-top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .footer-top .col {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+} */
+
+
+
+/* Mobile view Footer*/
+@media (max-width: 320px) {
+   .footer {
+      padding: 20px 10px;
+   }
+
+   .footer-top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .footer-top .col {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+
+
+
+   .moreInfoFooter {
+      order: 1;
+      width: 100%;
+   }
+
+   .footer-bottom {
+      padding-top: 10px;
+      text-align: center;
+   }
+} 
+
+   
+
+
+@media (min-width: 769px) {
+.left-section{
+   padding-top: 55px;
+   margin-left: 108px ;
+   max-width: 500px;
+   margin-top: 16px;
+}
+
+.navbar-toggler{
+   outline:none;  
+   border: none;
+   border: unset;
+}
+.right-section{
+   max-width: 700px;
+   max-height: 525px;
+   margin-right: 25px;
+}
+
+}
+
+
+/* Large screen: min-width 769px */
+@media only screen and (min-width: 769px) {
+   .medium-screen,
+   .small-screen {
+      display: none;
+   }
+
+   .large-screen {
+      display: block;
+      width: 100%;
+   }
+}
+
+/* Medium screen: max-width 768px and min-width 321px */
+@media only screen and (max-width: 768px) and (min-width: 321px) {
+   .large-screen,
+   .small-screen {
+      display: none;
+   }
+
+   .medium-screen {
+      display: block;
+      width: 100%;
+   }
+}
+
+/* Small screen: max-width 320px */
+@media only screen and (max-width: 320px) {
+   .large-screen,
+   .medium-screen {
+      display: none;
+   }
+
+   .small-screen {
+      display: block;
+      width: 100%;
+   }
+}
+
+
+
+
+@media (max-width: 320px) {
+
+
+   .siteLogo{
+      margin-left: 14px;
+   }
+.main-content{
+   max-width: 320px;
+}
+
+.centerEverything{
+   max-width: 320px;
+}
+
+   .left-section {
+      margin: 0 auto;
+      text-align: center;
+      align-self: center;
+      max-width: 320px;
+      padding-top: 5px !important;
+}
+
+
+.container-fluid{
+   max-width: 320px;
+}
+.MainText{
+   max-width: 272px;
+   max-height: 80px;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 40px;
+   font-family: "Hanken Grotesk", system-ui;
+   color:rgba(24, 59, 86, 1);
+}
+
+.UnderMainText{
+   padding-top: 40px;
+   max-width: 272px !important;
+   max-height: 140px;
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   text-align: center;
+   color: rgba(90, 113, 132, 1);
+}
+
+
+.input-box{
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 20rem;
+ }
+
+
+
+#headerSearchPlaceholder{
+   font-family: "Open Sans";
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 21.79px;
+   color: rgba(149, 158, 173, 1);
+   padding: 0px;
+}
+
+
+   .SearchButton {
+      width: 272px !important;
+      height: 48px;
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(21, 101, 216, 1);
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 21.79px;
+      text-align: center;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0px 1px 1px rgba(32, 30, 30, 0.01);
+      align-items: center;
+      
+
+    }
+
+    .fixTheDamnSearchButton{
+      background-color: rgba(255, 255, 255, 1); 
+      border-radius: 12px; 
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+      height: 48px;
+      margin-bottom: 20px;
+      width: 272px;
+   }
+
+.card{
+   max-width: 288px;
+   max-height: 356px;
+}
+
+.card-title{
+   max-width: 248px;
+   max-height: 24px;
+   font-size: 20px;
+}
+
+.author-details{
+   max-width: 200px;
+   max-height: 50px;
+}
+
+.card-text{
+max-width: 248px;
+max-height: 48px;
+font-size: 14px;
+
+}
+.navbar-toggler{
+   outline:none;  
+   border: none;
+   border: unset;
+}
+   .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+   }
+
+   .search-bar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+   }
+
+   .search-bar input {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+
+   .search-bar button {
+      width: 100%;
+   }
+
+   .popular-tags {
+      text-align: center;
+      width: 100%;
+      margin-top: 20px;
+   }
+
+   .tags-container {
+      margin-top: 500px;
+      flex-wrap: wrap;
+      display: flex;
+      gap: 0px;
+      margin-top: 100px;
+      width: 272px;
+   }
+
+   .tags-container button {
+      flex: 1 1 auto;
+      margin: 5px;
+   }
+
+
+}
+
+ 

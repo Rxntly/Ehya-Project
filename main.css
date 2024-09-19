@@ -1,53 +1,31 @@
-/* .MainText {
-   width: 539px;
-   height: 136px;
-   position: absolute;
-   background-color: #fff; /* Adjust background color if needed 
-   padding: 20px;
- }
+.tags-container {
+   /* Add styles if needed */
+}
 
- .MainText h1 {
-   font-family: HK Grotesk;
-   font-weight: 700;
-   font-size: 56px;
-   line-height: 68px;
-   letter-spacing: 0.2px;
-   color: rgba(24, 59, 86, 1);
- } */
-
-
- .tags-container{
-   
- }
- #buttonForTag{
+#buttonForTag {
    background-color: rgba(21, 101, 216, 0.1);
    color: rgba(21, 101, 216, 1);
    font-family: Open Sans;
    font-weight: 600;
    border-radius: 10px;
-   border:none;
+   border: none;
    max-height: 32px;
    text-align: inherit;
- }
+}
 
-
- .popTags{
+.popTags {
    font-family: "Open Sans", sans-serif;
    font-weight: 600;
    font-size: 16px;
    color: rgba(90, 113, 132, 1);
- }
-
-
-.cardLayout{
-   width: 296px;
-   height: 72px;
-   /* padding-left: 32px;
-   padding-right: 32px; */
-
 }
 
- .card-title{
+.cardLayout {
+   width: 296px;
+   height: 72px;
+}
+
+.card-title {
    font-family: "Hanken Grotesk", system-ui;
    font-optical-sizing: auto;
    font-weight: 700;
@@ -55,42 +33,36 @@
    font-size: 28px;
    line-height: 36px;
    letter-spacing: 0.2px;
- 
-   display: block; 
- }
+   display: block;
+}
 
- .card-text{
+.card-text {
    font-family: "Open Sans", sans-serif;
-font-weight: 400;
-color: rgba(24, 59, 86, 1);
-line-height: 32px;
-font-size: 18px;
- }
+   font-weight: 400;
+   color: rgba(24, 59, 86, 1);
+   line-height: 32px;
+   font-size: 18px;
+}
 
-
-.cardTitleDesc{
+.cardTitleDesc {
    height: 61px;
    width: 296px;
 }
- 
+
 .date {
    font-size: 16px;
    font-weight: 600;
    font-family: "Open Sans", sans-serif;
-   font-weight: 600;
    line-height: 21.79px;
    color: rgba(90, 113, 132, 1);
 }
 
-
-
-.list-unstyled{
-   border:none;
+.list-unstyled {
+   border: none;
 }
 
- 
 .card {
-   margin:25px;
+   margin: 25px;
    border-radius: 12px;
    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
    overflow: hidden;
@@ -109,14 +81,148 @@ font-size: 18px;
 .card-footer {
    background-color: #ffffff;
    border-top: 1px solid #ffffff;
-   border-top: 1px solid white !important;  /* Set the top border to white */
-   background-color: inherit;              
    padding: 30px 30px;
 }
-
 
 .card-title {
    font-size: 1.25rem;
    font-weight: bold;
 }
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+   /* Tablet view */
+   .cardLayout {
+      width: 100%;
+      height: auto;
+   }
+
+   .card {
+      margin: 15px;
+   }
+
+   .card-title {
+      font-size: 24px;
+      line-height: 32px;
+   }
+
+   .card-text {
+      font-size: 16px;
+      line-height: 28px;
+   }
+
+   .tags-container,
+   #buttonForTag,
+   .popTags {
+      text-align: center;
+      font-size: 14px;
+   }
+
+   .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .navbar-title,
+   .navbar-description,
+   .search-bar,
+   .popular-tags {
+      text-align: center;
+      font-size: 14px;
+   }
+
+   .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+   }
+
+   .footer-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .best-article {
+      order: 1;
+   }
+
+   .newsletter {
+      order: 2;
+   }
+
+   .footer-links {
+      order: 3;
+   }
+}
+
+@media (max-width: 768px) {
+   /* Mobile view */
+   .cardLayout {
+      width: 100%;
+      height: auto;
+   }
+
+   .card {
+      margin: 10px;
+   }
+
+   .card-title {
+      font-size: 20px;
+      line-height: 28px;
+   }
+
+   .card-text {
+      font-size: 14px;
+      line-height: 24px;
+   }
+
+   .tags-container,
+   #buttonForTag,
+   .popTags {
+      text-align: center;
+      font-size: 12px;
+   }
+
+   .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .navbar-title,
+   .navbar-description,
+   .search-bar,
+   .popular-tags {
+      text-align: center;
+      font-size: 12px;
+   }
+
+   .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+   }
+
+   .footer-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .best-article {
+      display: none;
+   }
+
+   .newsletter {
+      order: 1;
+   }
+
+   .footer-links {
+      order: 2;
+   }
+}
+
+
 

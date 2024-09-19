@@ -37,7 +37,7 @@
                <div class="siteLogo">
                   <img src="./Images/EhyaLogo.png" alt="Bootstrap">
                </div>
-               <div class="col-md-4 .offset-md-4">
+               <div class="offset-md-4">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                      data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                      aria-label="Toggle navigation">
@@ -99,34 +99,27 @@
 
    <main>
       <div>
-         <div class="container" id="theHeaderUnderNav">
-            <div class="row main-content">
-               <div class="col-8 left-section row" style="padding-top: 75px;">
-                  <h1 class="MainText">Manage all of your <br> cards in one place
+         <div class="container-header" id="theHeaderUnderNav">
+            <div class="main-content">
+               <div class="col-8 left-section ">
+                  <h1 class="MainText">Manage all of your cards in one place
                   </h1>
                   <p class=" UnderMainText">From year to year we strive to invent the most innovative <br> technology
                      that is used by both small enterprises and <br> space enterprises.</p>
 
-                  <!-- <div class="input-group mb-3" style="max-width: 500px;">
-                     <img src="./Images/search-alt-1-svgrepo-com.svg" alt="Search Icon" class="search-icon">
-                     <input type="text" class="form-control" placeholder="Search Article" aria-label="Search Article"
-                        aria-describedby="button-addon2">
-                     <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
-                  </div> -->
+                  <div class="fixTheDamnSearchButton">
+                     <div>
+                        <div class="input-box">
 
-                  <!-- <div class="input-box d-flex align-items-center bg-light  rounded shadow-sm"
-                     style="max-width: 555px; max-height: 56px;">
-                     
-                     <input type="text" class="form-control form-control-sm me-2" placeholder="Search here..." />
-                     <button class="btn btn-primary btn-sm">Search</button>
-                  </div> -->
-                  <div class="searchBoxDiv">
-                     <div class="input-box" style="max-width: 555px; margin-bottom: 60px; ">
-                        <i class="uil uil-search"></i>
-                        <img src="./Images/search-alt-1-svgrepo-com.svg" alt="Search Icon" class="uil uil-search me-2"
-                           width="20">
-                        <input type="text" placeholder="Search here..." />
-                        <button class="button">Search</button>
+                           <i class="uil uil-search"></i>
+                           <img src="./Images/searchIcon.svg" style="width: 20px; height: 20px; padding-left: 6px;"
+                              alt="Search Icon" class="uil uil-search me-2">
+
+                           <input type="text" id="headerSearchPlaceholder" placeholder="Search article" />
+
+                           <button class="SearchButton">Search</button>
+
+                        </div>
                      </div>
                   </div>
 
@@ -312,13 +305,13 @@
 
    <div>
       <div class="full-width-container">
-         <img src="/Images/curveNegative.svg" alt="" class="full-width-image large-screen">
-         <img src="/Images/curveNegative-medium.svg" alt="" class="full-width-image medium-screen">
-         <img src="/Images/curveNegative-small.svg" alt="" class="full-width-image small-screen">
+         <img src="/Images/curveNegative.svg" alt="" class="large-screen">
+         <img src="/Images/curveNegative-medium.svg" alt="" class="medium-screen">
+         <img src="/Images/curveNegative-small.svg" alt="" class="small-screen">
       </div>
    </div>
 
-   <footer>
+   <!-- <footer>
       <div style="display: flex; gap: 20px; padding-top: 20px; background-color: #0D2436; padding-bottom: 60px;">
          <div style="margin-left: 190px; padding-top: 70px; padding-right: 80px;">
             <h2 class="nearCardFooterTitle"> Get our stories delivered From us <br> to your inbox weekly.</h2>
@@ -347,71 +340,71 @@
             </div>
          </div>
       </div>
+      -->
 
-      <!-- 2nd part of the footer -->
+   <!-- 2nd part of the footer -->
 
-      <div class="row"
-         style="background-color: #0D2436; padding-left: 200px; padding-top: 120px; padding-right: 220px;">
-         <div class="col-md-4 col-lg-5" ">
+   <!-- <div class="row" style="background-color: #0D2436; padding-left: 200px; padding-top: 120px; padding-right: 220px;">
+      <div class="col-md-4 col-lg-5" ">
             <div class=" row">
-            <div class="col-md-12 col-lg-8 mb-md-0 mb-4">
-               <img src="./Images/EhyaWhiteLogo.png" alt="" style="padding-bottom: 30px;">
-               <p class="changeFontFotter" style="color:rgba(90, 113, 132, 1); padding-bottom: 20px;">Build a modern and
-                  creative <br> website
-                  with crealand</p>
-               <img src="./Images/fiveBubbles.png" alt="">
-            </div>
+         <div class="col-md-12 col-lg-8 mb-md-0 mb-4">
+            <img src="./Images/EhyaWhiteLogo.png" alt="" style="padding-bottom: 30px;">
+            <p class="changeFontFotter" style="color:rgba(90, 113, 132, 1); padding-bottom: 20px;">Build a modern and
+               creative <br> website
+               with crealand</p>
+            <img src="./Images/fiveBubbles.png" alt="">
          </div>
       </div>
+   </div>
 
-      <div class="col-md-8 col-lg-7" style="color: rgba(90, 113, 132, 1)">
-         <div class="row">
-            <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
-               <h2 class="footer-heading">Product</h2>
-               <ul class="list-unstyled">
-                  <li>Landing Page</li>
-                  <li>Features</li>
-                  <li>Documentation</li>
-                  <li>Referral Program</li>
-                  <li>Pricing</li>
-               </ul>
-            </div>
-            <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
-               <h2 class="footer-heading">Services</h2>
-               <ul class="list-unstyled">
-                  <li>Documentation</li>
-                  <li>Design</li>
-                  <li>Themes</li>
-                  <li>Illustrations</li>
-                  <li>UI Kit</li>
-               </ul>
-            </div>
-            <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
-               <h2 class="footer-heading">Company</h2>
-               <ul class="list-unstyled">
-                  <li>About</li>
-                  <li>Terms</li>
-                  <li>Privacy Policy</li>
-                  <li>Careers</li>
-               </ul>
-            </div>
-            <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
-               <h2 class="font-weight: 700;">More</h2>
-               <ul class="list-unstyled">
-                  <li>Documentation</li>
-                  <li>License</li>
-                  <li>Change log</li>
-               </ul>
-            </div>
+   <div class="col-md-8 col-lg-7" style="color: rgba(90, 113, 132, 1)">
+      <div class="row">
+         <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
+            <h2 class="footer-heading">Product</h2>
+            <ul class="list-unstyled">
+               <li>Landing Page</li>
+               <li>Features</li>
+               <li>Documentation</li>
+               <li>Referral Program</li>
+               <li>Pricing</li>
+            </ul>
+         </div>
+         <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
+            <h2 class="footer-heading">Services</h2>
+            <ul class="list-unstyled">
+               <li>Documentation</li>
+               <li>Design</li>
+               <li>Themes</li>
+               <li>Illustrations</li>
+               <li>UI Kit</li>
+            </ul>
+         </div>
+         <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
+            <h2 class="footer-heading">Company</h2>
+            <ul class="list-unstyled">
+               <li>About</li>
+               <li>Terms</li>
+               <li>Privacy Policy</li>
+               <li>Careers</li>
+            </ul>
+         </div>
+         <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
+            <h2 class="font-weight: 700;">More</h2>
+            <ul class="list-unstyled">
+               <li>Documentation</li>
+               <li>License</li>
+               <li>Change log</li>
+            </ul>
          </div>
       </div>
-      </div>
+   </div>
+   </div> -->
 
 
 
-      <div class="footer-bottom" style="padding-top: 100px;">
-         <p class="text-center">&copy; 2024. Crafted with love.</p>
-      </div>
+   <div class="footer-bottom" style="padding-top: 100px;">
+      <p class="text-center">&copy; 2024. Crafted with love.</p>
+   </div>
    </footer>
 
 
