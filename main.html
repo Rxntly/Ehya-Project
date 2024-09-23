@@ -114,20 +114,19 @@
                            <i class="uil uil-search"></i>
                            <img src="./Images/searchIcon.svg" style="width: 20px; height: 20px; padding-left: 6px;"
                               alt="Search Icon" class="uil uil-search me-2">
-
                            <input type="text" id="headerSearchPlaceholder" placeholder="Search article" />
-
-                           <button class="SearchButton">Search</button>
-
+                           <div class="buttonOverFlow">
+                              <button class="SearchButton">Search</button>
+                           </div>
                         </div>
                      </div>
                   </div>
 
                   <div class="tags-container">
                      <p class="popTags">Popular Tags: </p>
-                     <button id="buttonForTag">Design</button>
-                     <button id="buttonForTag"> User Experience</button>
-                     <button id="buttonForTag">User Interfaces</button>
+                     <button id="buttonForTagOne" class="buttonForTag">Design</button>
+                     <button id="buttonForTagTwo" class="buttonForTag"> User Experience</button>
+                     <button id="buttonForTagThree" class="buttonForTag">User Interfaces</button>
                   </div>
                </div>
 
@@ -143,14 +142,14 @@
 
 
       <!-- the cards go here -->
-      <div class="mx-auto">
-         <div class="row mx-auto container" style="margin-top: 40px;">
+      <div class="cards-container mx-auto">
+         <div class="rawr row mx-auto container" style="margin-top: 40px;">
             <div class="col-xl-4 col-md-6">
                <div class="card" style="width: 360px;">
                   <img class="card-img-top" src="https://random.imagecdn.app/360/249" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">Future of Work</h5>
-                     <p class="card-text">Majority of peole will work in jobs <br>that don’t exist today.</p>
+                     <p class="card-text">Majority of peole will work in jobs that don’t exist today.</p>
                   </div>
                   <div class="card-footer d-flex justify-content-between align-items-center">
                      <div class="author-info d-flex align-items-center">
@@ -311,9 +310,9 @@
       </div>
    </div>
 
-   <!-- <footer>
+   <footer>
       <div style="display: flex; gap: 20px; padding-top: 20px; background-color: #0D2436; padding-bottom: 60px;">
-         <div style="margin-left: 190px; padding-top: 70px; padding-right: 80px;">
+         <div class="topLeftFooterItem">
             <h2 class="nearCardFooterTitle"> Get our stories delivered From us <br> to your inbox weekly.</h2>
             <div class="input-container">
                <input type="email" placeholder="Your Email" class="input-field">
@@ -340,71 +339,74 @@
             </div>
          </div>
       </div>
-      -->
 
-   <!-- 2nd part of the footer -->
 
-   <!-- <div class="row" style="background-color: #0D2436; padding-left: 200px; padding-top: 120px; padding-right: 220px;">
-      <div class="col-md-4 col-lg-5" ">
+      <!-- 2nd part of the footer -->
+
+      <div class="secondFooter row"
+         style="background-color: #0D2436; padding-left: 200px; padding-top: 120px; padding-right: 220px;">
+         <div class="secondFooter">
             <div class=" row">
-         <div class="col-md-12 col-lg-8 mb-md-0 mb-4">
-            <img src="./Images/EhyaWhiteLogo.png" alt="" style="padding-bottom: 30px;">
-            <p class="changeFontFotter" style="color:rgba(90, 113, 132, 1); padding-bottom: 20px;">Build a modern and
-               creative <br> website
-               with crealand</p>
-            <img src="./Images/fiveBubbles.png" alt="">
+               <div class="WholePackageFirstFooter">
+                  <img src="./Images/EhyaWhiteLogo.png" alt="" style="padding-bottom: 30px;">
+                  <p class="secondFooterFirstText">Build a
+                     modern and creative <br> website with crealand</p>
+                  <img src="./Images/fiveBubbles.png" alt="">
+               </div>
+            </div>
+
+
+
+            <div class="" style="color: rgba(90, 113, 132, 1)">
+               <div class="spamFooterPart">
+                  <div class="changeFontFotter">
+                     <h2 class="footer-heading">Product</h2>
+                     <ul class="list-unstyled">
+                        <li>Landing Page</li>
+                        <li>Features</li>
+                        <li>Documentation</li>
+                        <li>Referral Program</li>
+                        <li>Pricing</li>
+                     </ul>
+                  </div>
+                  <div class="changeFontFotter">
+                     <h2 class="footer-heading">Services</h2>
+                     <ul class="list-unstyled">
+                        <li>Documentation</li>
+                        <li>Design</li>
+                        <li>Themes</li>
+                        <li>Illustrations</li>
+                        <li>UI Kit</li>
+                     </ul>
+                  </div>
+                  <div class="changeFontFotter">
+                     <h2 class="footer-heading">Company</h2>
+                     <ul class="list-unstyled">
+                        <li>About</li>
+                        <li>Terms</li>
+                        <li>Privacy Policy</li>
+                        <li>Careers</li>
+                     </ul>
+                  </div>
+                  <div class="changeFontFotter">
+                     <h2 class="footer-heading">More</h2>
+                     <ul class="list-unstyled">
+                        <li>Documentation</li>
+                        <li>License</li>
+                        <li>Change log</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
-   </div>
 
-   <div class="col-md-8 col-lg-7" style="color: rgba(90, 113, 132, 1)">
-      <div class="row">
-         <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
-            <h2 class="footer-heading">Product</h2>
-            <ul class="list-unstyled">
-               <li>Landing Page</li>
-               <li>Features</li>
-               <li>Documentation</li>
-               <li>Referral Program</li>
-               <li>Pricing</li>
-            </ul>
-         </div>
-         <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
-            <h2 class="footer-heading">Services</h2>
-            <ul class="list-unstyled">
-               <li>Documentation</li>
-               <li>Design</li>
-               <li>Themes</li>
-               <li>Illustrations</li>
-               <li>UI Kit</li>
-            </ul>
-         </div>
-         <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
-            <h2 class="footer-heading">Company</h2>
-            <ul class="list-unstyled">
-               <li>About</li>
-               <li>Terms</li>
-               <li>Privacy Policy</li>
-               <li>Careers</li>
-            </ul>
-         </div>
-         <div class="changeFontFotter col-md-3 mb-md-0 mb-4 border-left">
-            <h2 class="font-weight: 700;">More</h2>
-            <ul class="list-unstyled">
-               <li>Documentation</li>
-               <li>License</li>
-               <li>Change log</li>
-            </ul>
-         </div>
+
+
+
+      <div class="footer-bottom" style="padding-top: 100px;">
+         <p class="text-center">&copy; 2024. Crafted with love.</p>
       </div>
-   </div>
-   </div> -->
-
-
-
-   <div class="footer-bottom" style="padding-top: 100px;">
-      <p class="text-center">&copy; 2024. Crafted with love.</p>
-   </div>
    </footer>
 
 

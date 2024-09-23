@@ -1,16 +1,29 @@
-.tags-container {
-   /* Add styles if needed */
+
+
+
+#buttonForTagOne{
+   max-width: 83px;
 }
 
-#buttonForTag {
+#buttonForTagTwo{
+   max-width: 146px;
+}
+#buttonForTagThree{
+   max-width: 139px;
+}
+
+.buttonForTag {
    background-color: rgba(21, 101, 216, 0.1);
+   padding: 5px 10px;
+   display: grid;
+   row-gap: 200px;
    color: rgba(21, 101, 216, 1);
    font-family: Open Sans;
    font-weight: 600;
-   border-radius: 10px;
+   border-radius: 6px;
    border: none;
    max-height: 32px;
-   text-align: inherit;
+   text-align: center;
 }
 
 .popTags {
@@ -112,7 +125,7 @@
    }
 
    .tags-container,
-   #buttonForTag,
+   .buttonForTag,
    .popTags {
       text-align: center;
       font-size: 14px;
@@ -157,16 +170,12 @@
    }
 }
 
-@media (max-width: 768px) {
-   /* Mobile view */
+/* @media (max-width: 768px) {
    .cardLayout {
       width: 100%;
       height: auto;
    }
 
-   .card {
-      margin: 10px;
-   }
 
    .card-title {
       font-size: 20px;
@@ -174,9 +183,23 @@
    }
 
    .card-text {
-      font-size: 14px;
-      line-height: 24px;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 400px;
    }
+
+.author-name{
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+}
+
+.verified-badge{
+font-size: 14px;
+line-height: 19.07px;
+}
+
+.date{ font-size: 16px}
 
    .tags-container,
    #buttonForTag,
@@ -225,4 +248,4 @@
 }
 
 
-
+ */

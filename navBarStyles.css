@@ -47,7 +47,6 @@
 
 
 
-
 .left-section {
    flex: 1;
 }
@@ -219,11 +218,11 @@
    gap: 10px; 
 }
 
-#buttonForTag {
-   padding: 5px 10px; 
+.buttonForTag {
+   padding: 4px;
    font-size: 14px; 
    height: auto; 
-   width: auto; 
+   width: auto;
    display: inline-block; 
    margin: 0; 
 }

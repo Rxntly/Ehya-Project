@@ -1,12 +1,3 @@
-.full-width-image {
-   width: 100%;
-   height: auto;
-   display: none; /* Hide all images by default */
-}
-
-.large-screen {
-   display: block; /* Show large screen image by default */
-}
 
 
 
@@ -71,12 +62,22 @@
 }
 
 
+.changeFontFotter h2{
+   margin-bottom: 30px;
+   }
+
+.changeFontFotter ul li{
+margin-bottom: 35px;
+}
+
+
 .changeFontFotter{
    color: rgba(149, 158, 173, 1);
    font-family: "Open Sans", sans-serif;
    font-weight: 400;
    font-style: normal;
    padding-right: 40px;
+   
 }
 
 
@@ -119,7 +120,11 @@
 
 
 
-
+.topLeftFooterItem{
+   margin-left: 190px;
+    padding-top: 70px;
+     padding-right: 80px;
+}
 
 /* card footer below */
 
@@ -180,4 +185,54 @@
 
 .small-screen{
    max-height: 20px;
+}
+
+
+.secondFooter{
+   display:flex;
+}
+
+.secondFooterFirstText{
+   color:rgba(90, 113, 132, 1); 
+   padding-bottom: 20px;
+   font-weight: 400;
+   font-family: "Open Sans";
+   font-size: 16px;
+   line-height: 28px;
+}
+.WholePackageFirstFooter{
+   height: 166px;
+   width: 240px;
+   margin-right: 80px;
+}
+
+.spamFooterPart{
+   display: flex;
+   column-gap: 40px;
+   flex-direction: row;
+}
+
+
+
+
+
+.footer-heading{
+   font-family: "Open Sans";
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 24.51px;
+   color: rgba(90, 113, 132, 1);
+}
+
+/* Custom styles for footer row */
+.row {
+   --bs-gutter-x: 0rem !important; 
+}
+
+.list-unstyled{
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21.79px;
+   color: rgba(149, 158, 173, 1);
 }
