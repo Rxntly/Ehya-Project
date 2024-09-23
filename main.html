@@ -142,10 +142,10 @@
 
 
       <!-- the cards go here -->
-      <div class="cards-container mx-auto">
-         <div class="rawr row mx-auto container" style="margin-top: 40px;">
+      <div class="cards-container custom-gutter mx-auto">
+         <div class="custom-card-container row mx-auto container" style="margin-top: 40px;">
             <div class="col-xl-4 col-md-6">
-               <div class="card" style="width: 360px;">
+               <div class="card" id="mainBodyCards" style="width: 360px;">
                   <img class="card-img-top" src="https://random.imagecdn.app/360/249" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">Future of Work</h5>
@@ -168,7 +168,7 @@
                </div>
             </div>
             <div class="col-xl-4 col-md-6">
-               <div class="card" style="width: 360px;">
+               <div class="card" id="mainBodyCards" style="width: 360px;">
                   <img class="card-img-top" src="https://random.imagecdn.app/360/249" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">Why Use External It Support</h5>
@@ -192,7 +192,7 @@
                </div>
             </div>
             <div class="col-xl-4 col-md-6">
-               <div class="card" style="width: 360px;">
+               <div class="card" id="mainBodyCards" style="width: 360px;">
                   <img class="card-img-top" src="https://random.imagecdn.app/360/249" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">Future of Learning</h5>
@@ -215,7 +215,7 @@
                </div>
             </div>
             <div class="col-xl-4 col-md-6">
-               <div class="card" style="width: 360px;">
+               <div class="card" id="mainBodyCards" style="width: 360px;">
                   <img class="card-img-top" src="https://random.imagecdn.app/360/249" alt="Card image cap">
                   <div class="card-body">
                      <div class="cardLayout">
@@ -242,7 +242,7 @@
                </div>
             </div>
             <div class="col-xl-4 col-md-6">
-               <div class="card" style="width: 360px;">
+               <div class="card" id="mainBodyCards" style="width: 360px;">
                   <img class="card-img-top" src="https://random.imagecdn.app/360/249" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">Help Finding Information Online</h5>
@@ -265,7 +265,7 @@
                </div>
             </div>
             <div class="col-xl-4 col-md-6">
-               <div class="card" style="width: 360px;">
+               <div class="card" id="mainBodyCards" style="width: 360px;">
                   <img class="card-img-top" src="https://random.imagecdn.app/360/249" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">Help Finding Information Online</h5>
@@ -311,14 +311,15 @@
    </div>
 
    <footer>
-      <div style="display: flex; gap: 20px; padding-top: 20px; background-color: #0D2436; padding-bottom: 60px;">
+      <div class="firstFooterSectionTogether">
          <div class="topLeftFooterItem">
             <h2 class="nearCardFooterTitle"> Get our stories delivered From us <br> to your inbox weekly.</h2>
             <div class="input-container">
                <input type="email" placeholder="Your Email" class="input-field">
                <button class="get-started-button">Get started</button>
             </div>
-            <h6 class="warningTextBottom">Get a response tomorrow if you submit by 9pm today. If we received after <br>
+            <h6 class="warningTextBottom">Get a response tomorrow if you submit by 9pm today. If we received after
+               <br>
                9pm will get a response the
                following day.</h6>
          </div>
@@ -327,7 +328,7 @@
             <div class="background-div blue"></div>
             <div class="background-div dark"></div>
 
-            <div class="card" style="width: 466px; height: 385px; border-radius: 12px;">
+            <div class="card" id="bottomCard" style="width: 466px; height: 385px; border-radius: 12px;">
                <div style="padding: 6px 6px 6px 6px; border-radius: 12px 12px 12px 12px;">
                   <img class="card-img-top" src="https://random.imagecdn.app/450/212" style="border-radius: 12px;"
                      alt="Card image cap">
@@ -340,18 +341,25 @@
          </div>
       </div>
 
-
       <!-- 2nd part of the footer -->
 
-      <div class="secondFooter row"
-         style="background-color: #0D2436; padding-left: 200px; padding-top: 120px; padding-right: 220px;">
+
+      <div class="secondFooter row">
          <div class="secondFooter">
             <div class=" row">
                <div class="WholePackageFirstFooter">
                   <img src="./Images/EhyaWhiteLogo.png" alt="" style="padding-bottom: 30px;">
                   <p class="secondFooterFirstText">Build a
                      modern and creative <br> website with crealand</p>
-                  <img src="./Images/fiveBubbles.png" alt="">
+                  <div class="responsive-container">
+                     <img class="default-img" src="./Images/fiveBubbles.png" alt="">
+                     <div class="fourCircles">
+                        <div><img src="./Images/fourBubbles/IconOne.png" alt=""></div>
+                        <div><img src="./Images/fourBubbles/IconTwo.png" alt=""></div>
+                        <div><img src="./Images/fourBubbles/IconThree.png" alt=""></div>
+                        <div><img src="./Images/fourBubbles/IconFour.png" alt=""></div>
+                     </div>
+                  </div>
                </div>
             </div>
 

@@ -16,7 +16,7 @@
    background-color: rgba(21, 101, 216, 0.1);
    padding: 5px 10px;
    display: grid;
-   row-gap: 200px;
+   row-gap: 20;
    color: rgba(21, 101, 216, 1);
    font-family: Open Sans;
    font-weight: 600;
@@ -249,3 +249,15 @@ line-height: 19.07px;
 
 
  */
+
+.fourCircles{
+   display: flex  ;
+   gap: 7px;
+}
+
+ #mainBodyCards{
+   padding-left: 0px !important;
+   padding-right: 0px !important;
+ }
+
+
