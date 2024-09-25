@@ -21,10 +21,12 @@
 
    <link rel="stylesheet" href="./main.css">
    <link rel="stylesheet" href="./responsive.css">
+   <link rel="stylesheet" href="./unitedResponsive.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet">
+
 </head>
 
 <body style="background-color: rgba(249, 252, 255, 1);">
@@ -102,15 +104,13 @@
          <div class="container-header" id="theHeaderUnderNav">
             <div class="main-content">
                <div class="col-8 left-section ">
-                  <h1 class="MainText">Manage all of your cards in one place
-                  </h1>
+                  <h1 class="MainText">Manage all of your cards in one place</h1>
                   <p class=" UnderMainText">From year to year we strive to invent the most innovative <br> technology
                      that is used by both small enterprises and <br> space enterprises.</p>
 
                   <div class="fixTheDamnSearchButton">
                      <div>
                         <div class="input-box">
-
                            <i class="uil uil-search"></i>
                            <img src="./Images/searchIcon.svg" style="width: 20px; height: 20px; padding-left: 6px;"
                               alt="Search Icon" class="uil uil-search me-2">
@@ -143,7 +143,8 @@
 
       <!-- the cards go here -->
       <div class="cards-container custom-gutter mx-auto">
-         <div class="custom-card-container row mx-auto container" style="margin-top: 40px;">
+         <div class="custom-card-container row  mx-auto container" data-masonry='{"percentPosition": true }'
+            style="margin-top: 40px;">
             <div class="col-xl-4 col-md-6">
                <div class="card" id="mainBodyCards" style="width: 360px;">
                   <img class="card-img-top" src="https://random.imagecdn.app/360/249" alt="Card image cap">
@@ -313,15 +314,17 @@
    <footer>
       <div class="firstFooterSectionTogether">
          <div class="topLeftFooterItem">
-            <h2 class="nearCardFooterTitle"> Get our stories delivered From us <br> to your inbox weekly.</h2>
+            <h2 class="nearCardFooterTitle"> Get our stories delivered From us to your inbox weekly.</h2>
             <div class="input-container">
                <input type="email" placeholder="Your Email" class="input-field">
                <button class="get-started-button">Get started</button>
             </div>
-            <h6 class="warningTextBottom">Get a response tomorrow if you submit by 9pm today. If we received after
-               <br>
-               9pm will get a response the
-               following day.</h6>
+            <h6 class="warningTextBottom">
+               <span class="warningTextBottomSection1"> Get a response tomorrow </span> <span
+                  class="warningTextBottomSection2"> if you submit by 9pm today. If we received after
+                  9pm will get a response the
+                  following day.</span>
+            </h6>
          </div>
 
          <div class="threeCardCombo">
@@ -341,16 +344,19 @@
          </div>
       </div>
 
-      <!-- 2nd part of the footer -->
+      <!-- 2nd part of the footer starts now -->
 
 
       <div class="secondFooter row">
          <div class="secondFooter">
             <div class=" row">
                <div class="WholePackageFirstFooter">
-                  <img src="./Images/EhyaWhiteLogo.png" alt="" style="padding-bottom: 30px;">
+                  <div>
+                     <img src="./Images/EhyaWhiteLogo.png" class="logoAtTheBottom320" alt=""
+                        style="padding-bottom: 30px;">
+                  </div>
                   <p class="secondFooterFirstText">Build a
-                     modern and creative <br> website with crealand</p>
+                     modern and creative website with crealand</p>
                   <div class="responsive-container">
                      <img class="default-img" src="./Images/fiveBubbles.png" alt="">
                      <div class="fourCircles">
@@ -423,6 +429,11 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
    </script>
+   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous">
+   </script>
+
 </body>
 
 </html>

@@ -1,21 +1,32 @@
-@media (min-width: 769px){
-   .fourCircles{
-      display:none;
-   }
-
-
-}
-
-@media (max-width: 768px) {
-   .default-img {
-       display: none;
-   }
-
+/* For screens below 320px */
+@media (max-width: 320px) {
    .fourCircles {
-       display: block;
+       display: none !important; 
    }
-
+   .default-img {
+       display: block !important; 
+   }
 }
+
+@media (min-width: 321px) and (max-width: 768px) {
+   .default-img {
+       display: none; 
+   }
+   .fourCircles {
+       display: block; 
+   }
+}
+
+
+@media (min-width: 769px) {
+   .fourCircles {
+       display: none !important; 
+   }
+   .default-img {
+       display: block !important; 
+   }
+}
+
 
 
 
@@ -230,7 +241,7 @@ margin-bottom: 35px;
 }
 .WholePackageFirstFooter{
    height: 166px;
-   width: 240px;
+   max-width: 240px !important;
    margin-right: 80px;
 }
 
